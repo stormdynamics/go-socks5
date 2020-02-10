@@ -1,5 +1,10 @@
 package socks5
 
+import (
+	"fmt"
+	"io"
+)
+
 // UserPassAuthenticator is used to handle username/password based
 // authentication
 type UserPassAuthenticator struct {
